@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class=" container-flex search">
+            <div class="site-title">
+                <h1>Heritage Worldwide</h1>
+                <p class="subtitle">A blog exploring tangible and intengible cultural heritage</p>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <div class="dropdown">
+                        <h3>Home</h3>
+                            <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li><a href="nav-about-me.html">About us</a></li>
+                    <li><a href="nav-recent-post.html">Recent posts</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Donates</a></li>
+                </ul>
+                
+            </nav>
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search" >
+                <button type="submit"><i class="fa fa-search"></i></button>
+                
+            </form>  
+        </div>
+    </header>
+
+    <div class="container container-flex">
+        <main role="main">
+            <article class="article-featured">
+                <h1 class="article-title">Tangible and Intengible Heritage</h1>
+                <img src="img\egypt-pyramids-world-heritage.jpg" alt="" class="article-img">
+                <p class="article-info">June 12, 2022 | 0 comments</p>
+                <p class="article-body"> <strong> The intangible heritage must be seen as a broader framework within which tangible heritage takes on its shape and significance.</strong> Heritage objects are the tangible evidence of underlying norms and values. Thus, they establish a symbiotic relationship between the tangible and the intangible. <a href="#">Cultural heritage includes </a>. tangible culture (such as buildings, monuments, landscapes, books, works of art,and artifacts), intangible culture (such as folklore, traditions, language, and knowledge), and natural heritage (including culturally significant landscapes, and biodiversity).</p>
+                <a href="#" class="article-read-more">continue reading</a>
+                
+            </article>
+
+            <article class="article-recent">
+                <div class="article-recent-main">
+                    <h2 class="article-title">Colonial Heritage</h2>
+                    <p class="article-body">One impact of colonization is “pyschocultural marginality” or the loss of one's cultural identity along with social and personal disorganization. Such impact is produced when people are denied access to their traditional culture, values and norms leading to historical trauma and cultural alienation (Dalal, 2011). </p>
+                    <a href="#" class="article-read-more">continue reading</a>
+                </div>
+                <div class="article-recent-secondary">
+                    <img src="img\colonial-heritage.jpg" alt="" class="article-img">
+                    <p class="article-info">June 12, 2022 | 0 comments</p>
+                </div>
+            </article>
+
+            <article class="article-recent">
+                <div class="article-recent-main">
+                    <h2 class="article-title">Islamic Heritage</h2>
+                    <p class="article-body">Islamic culture and Muslim culture refer to cultural practices which are common to historically Islamic people. The early forms of Muslim culture, from the Rashidun Caliphate to the early Umayyad period and the early Abbasid period, were predominantly Arab, Byzantine, Persian and Levantine. </p>
+                    <a href="#" class="article-read-more">continue reading</a>
+                </div>
+                <div class="article-recent-secondary">
+                    <img src="img\tajmahal.jpg" alt="" class="article-img">
+                    <p class="article-info">June 12, 2022 | 0 comments</p>
+                </div>
+            </article>
+
+            <article class="article-recent">
+                <div class="article-recent-main">
+                    <h2 class="article-title">Heritage Interpretation and Politics</h2>
+                    <p class="article-body">So whose heritage is represented in public spaces? And who decides what is ‘our’ shared heritage? One observation that could be suggested is that the process of heritage formation is borne by conflict, civil disobedience, strikes, revolution and political movements.</p>
+                    <a href="#" class="article-read-more">continue reading</a>
+                </div>
+                <div class="article-recent-secondary">
+                    <img src="img\syrie.jpg" alt="" class="article-img">
+                    <p class="article-info">June 12, 2022 | 0 comments</p>
+                </div>
+            </article>
+
+        </main>
+
+        <aside class="sidebar">
+
+            <div class="sidebar-widget">
+                <a class="sidebar-link" href="nav-about-me.html">
+                <h2 class="widget-title">ABOUT US</h2>
+                <img src="img\arif.jpg" alt="" class="widget-img">
+                <p class="widget-body">Heritage World wide is an international platform for heritage professionals.</p>
+                </a>
+            </div>
+
+            <div class="sidebar-widget">
+                <a class="sidebar-link" href="#">
+                <h2 class="widget-title">RECENT POST</h2>
+                <div class="widget-recent-post">
+                    <h3 class="widget-recent-post-title">Islamic Heritage</h3>
+                    <img src="img\alcazar seville.jpg" alt="" class="widget-img">
+                </a>
+                </div>
+                <div class="widget-recent-post">
+                    <a class="sidebar-link" href="#">
+                    <h3 class="widget-recent-post-title">Colonial Heritage</h3> 
+                    <img src="img\Ramappa-temple.jpg" alt="" class="widget-img">
+                </a>
+                </div>
+                <div class="widget-recent-post">
+                    <a class="sidebar-link" href="#">   
+                    <h3 class="widget-recent-post-title">Heritage Interpretation and Politics </h3>
+                    <img src="img\heritage-interpretation.jpg" alt="" class="widget-img">
+                    </a>
+                </div>
+            </div>
+
+        </aside>
+
+    </div>
+
+    <footer>
+        <div class="flex">
+            <div>
+                <p><strong>Heritage Worldwide</strong></p>
+                <p class="small-text">Copyright 2022</p>
+            </div>
+    
+            <div class="social-media">
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-google"></ion-icon>
+    
+           </div>
+           <p class="small-text">This Website HeritageWorldWide.com is owned by Md Ariful Islam</p>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
